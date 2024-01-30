@@ -10,14 +10,14 @@
 - Состоит из полей data, temp, discription.
 
 ### Реализованные функции:
-- writeCallback: 
+writeCallback: 
 Функция обратного вызова для записи полученного ответа от сервера в переменную data.
-- getWeatherForecast:
+ getWeatherForecast:
 - Выполняет запрос к API openweathermap.org для получения прогноза погоды.
 - Принимает название города (city).
 - Создает URL запроса, используя API ключ и название города.
 - Выполняет запрос и записывает полученный ответ в переменную response.
-- fillWeatherForecast:
+  fillWeatherForecast:
 - Заполняет список объектов DailyWeatherForecast из полученного прогноза погоды.
 - Принимает данные прогноза погоды (forecastData).
 - Создает пустой список weatherForecast для хранения данных о погоде.
